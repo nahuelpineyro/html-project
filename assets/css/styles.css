@@ -1,0 +1,77 @@
+    body{
+        background: #F56D06;
+        background: linear-gradient(156deg, rgba(245, 109, 6, 1) 0%, rgba(27, 187, 245, 1) 100%);
+        background-repeat: no-repeat;
+    }
+
+    nav{
+        background-color: lightgray;
+        display: flex;
+        justify-content: space-evenly;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    
+    ol{
+        list-style: none;
+        padding-inline-start: 0px;
+    }
+
+    a{
+      text-decoration: none;
+    }
+
+    h1{
+        text-align: center;
+    }
+    
+    .parrafoHeader{
+        text-align: center;
+    }
+
+    .KTM {
+      color: orangered;
+    }
+
+    .Kawasaki{
+      color:green;
+    }
+
+    .Aprilia{
+      color: red;
+    }
+
+    .Ducati{
+      color: red;
+    }
+
+    /* PAGINA DE KTM */
+
+    .dukeContainer{
+        display: flex;
+        justify-content: center;
+    }
+    .ktmDuke:hover{
+        scale: 110%;
+        transition: all ease-in-out 400ms;
+    }
+    
+    .ktmDuke{
+        padding-bottom: 20px;
+    }
+    
+    .seccionInfo{
+        display: flex;
+    }
+
+    .articuloKtm{
+        width: 75%;
+    }
+
+    .asideRanking{
+        width: 25%;
+    }
