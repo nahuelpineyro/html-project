@@ -1,6 +1,6 @@
     body{
         background: #ebc76c;
-background: linear-gradient(180deg, rgba(235, 199, 108, 1) 0%, rgba(148, 187, 233, 1) 100%);
+        background: linear-gradient(180deg, rgba(235, 199, 108, 1) 0%, rgba(148, 187, 233, 1) 100%);
         background-repeat: no-repeat;
         box-sizing: border-box;
         font-family: "Lato", sans-serif;
@@ -117,16 +117,32 @@ background: linear-gradient(180deg, rgba(235, 199, 108, 1) 0%, rgba(148, 187, 23
         box-sizing: border-box;
     }
 
-    footer{
+    .footer{
         width: 100%;
-        height: 500px;
         background: rgba(255, 255, 255, 0.2);
         border-radius: 16px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
         border: 1px solid rgba(255, 255, 255, 0.3);
+        text-align: center;
     }
+
+    .infoContacto{
+        background: rgba(12, 12, 12, 0.486);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 15px;
+        width: 60%;
+        box-sizing: border-box;
+        margin-right: 10px;
+        text-align: left;
+    }
+
+
     /* PAGINA DE KTM */
 
     .dukeContainer{
