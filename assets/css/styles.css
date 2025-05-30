@@ -22,14 +22,19 @@
         padding-inline-start: 0px;
     }
 
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content:center;
+        padding-inline-start: 0px;
+    }
 
     a{
         text-decoration: none;
         font-size: 20px;
         font-weight: 400;
         font-style: normal;
-        color: black
-        ;
+        color: black;
     }
 
     h1{
@@ -129,19 +134,31 @@
     }
 
     .infoContacto{
-        background: rgba(12, 12, 12, 0.486);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        padding: 15px;
-        width: 60%;
-        box-sizing: border-box;
-        margin-right: 10px;
         display: flex;
+        justify-content: space-evenly;
     }
 
+    .gitIcon{
+        width: 32px;
+        box-sizing: border-box;
+        margin: 5px;
+    }
+
+    .linkedinIcon{
+        width: 32px;
+        box-sizing: border-box;
+        margin: 5px;
+    }
+
+    .gitIcon:hover{
+        scale: 110%;
+        transition: all ease-in-out 300ms;
+    }
+
+    .linkedinIcon:hover{
+        scale: 110%;
+        transition: all ease-in-out 300ms;
+    }
 
     /* PAGINA DE KTM */
 
