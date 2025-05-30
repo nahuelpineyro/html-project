@@ -139,7 +139,7 @@
         width: 60%;
         box-sizing: border-box;
         margin-right: 10px;
-        text-align: left;
+        display: flex;
     }
 
 
